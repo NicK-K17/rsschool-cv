@@ -21,3 +21,31 @@ Independently studied 3D graphics and the Unity development environment, curren
 I can work long and hard on what I’m really interested in.
 I like to study modern technologies and look for the best ways to solve emerging problems. I am ready to devote a lot of time to training and self-development. I adequately perceive objective criticism.
 I have excellent communication skills, and know how to work in a team.
+
+---
+
+## __Skills__
+
+- Cinema 4D
+- Adobe( Photoshop, After Effects)
+- HTML, CSS
+- JavaScript (Basic)
+- Git/GitHub
+
+---
+
+## __Code Example__
+You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+
+```
+function getMiddle(s)
+{
+  const strLen = s.length;
+  const mid = strLen / 2;
+  if(strLen % 2 === 0){
+    return s.slice(mid - 1, mid + 1);
+  } if(strLen % 2 !== 0){
+    return s[Math.floor(mid)];
+  };
+};
+```
