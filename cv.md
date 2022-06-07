@@ -51,7 +51,7 @@ function getMiddle(s)
 ```
 ---
 
-## __Education__ 
+## __Education__
 
 - Francisk Skorina Gomel State University
 - Courses:
