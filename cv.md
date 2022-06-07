@@ -27,7 +27,7 @@ I have excellent communication skills, and know how to work in a team.
 ## __Skills__
 
 - Cinema 4D
-- Adobe( Photoshop, After Effects)
+- Adobe(Photoshop, After Effects)
 - HTML, CSS
 - JavaScript (Basic)
 - Git/GitHub
