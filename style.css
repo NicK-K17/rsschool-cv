@@ -125,3 +125,87 @@ html {
   .socialItem:hover {
   box-shadow: 0 0 10px #66CCA1;
   }
+  
+  /******MAIN****************************************************/
+
+  .main {
+    background-color: #E5E5E5;
+  }
+  .about {
+    border: 4px solid #66CCA1;
+    background:#fff;
+    max-width: fit-content;
+    border-radius: 0px 70px 70px 0px;
+    padding-left: 372px;
+    border-left: 0;
+    box-shadow: 0 0 10px #66CCA1;
+  }
+  .about-wrap {
+    padding-top: 135px;
+  }
+  .aboutme {
+    padding: 37px 0;
+    margin-right: 80px;
+  }
+  .description-main {
+    display: flex;
+    gap: 50px
+  }
+  .description {
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .abs {
+    max-width: 615px;
+    line-height: 39px;
+  }
+  .education {
+    margin-top: 135px;
+    border: 4px solid #66CCA1;
+    background:#fff;
+    border-radius: 70px 0px 0px 70px;
+    margin-left: 300px;
+    box-shadow: 0 0 10px #66CCA1;
+    border-right: 0;
+  }
+  .education-p {
+    margin-left: 70px;
+    padding: 37px 0;
+  }
+  .education-des {
+    margin-top: 60px;
+  }
+  .courses-p {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .courses {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .courses-item {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    list-style: disc;
+    max-width: 510px;
+  }
+  .courses-list {
+    margin-top: 20px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .educ {
+    gap: 110px
+  }
+  .educ-itom {
+    margin-top: 15px;
+    max-width: 612px;
+  }
