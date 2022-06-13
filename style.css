@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: inherit;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul, ol, li {
+    list-style: none;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h2 {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+  .section {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+  }
+
+  /******HAEDER*******************************************************/
+
+  .header {
+    background-color: #323237;
+  }
+  .headerCont {
+    padding-top: 50px;
+  }
+  .navEndContacts {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navlist{
+    display: flex;
+    gap: 80px;
+  }
+  .navLink {
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+  }
+  .navLink:hover {
+    color: #66CCA1;
+  }
+  .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  padding-top: 10px;
+  }
+  .phoneCont {
+  display: flex;
+  gap: 20px;
+  }
+  .phoneNumber {
+  font-size: 20px;
+  color: #fff;
+  }
+  .email {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 20.8px;
+  }
+  .person {
+  margin-top: 125px;
+  padding-bottom: 110px;
+  }
+  .name {
+  color: #fff;
+  font-size: 90px;
+  position: relative;
+  z-index: 20;
+  }
+  .nameCont {
+  z-index: 2;
+  }
+  .frosession {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 48px;
+  }
+  .photo {
+  position: absolute;
+  right: 375px;
+  top: 145px;
+  z-index: 3;
+  border-radius: 400px 400px 0px 400px;
+  border: 3px solid #66CCA1;
+  border-top: 20px;
+  border-left: 20px;
+  box-shadow: 0 0 10px #66CCA1;
+  padding: 0 20px 20px 0;
+  }
+  .socials {
+  margin-top: 290px;
+  display: flex;
+  gap: 60px;
+  }
+  .socialItem{
+  height: 65px;
+  border-radius: 55px 55px 55px 0;
+  }
+  .socialItem:hover {
+  box-shadow: 0 0 10px #66CCA1;
+  }
