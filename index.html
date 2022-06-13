@@ -97,6 +97,46 @@
                     </div>
             </div>
         </section>
+        <section>
+            <div class="skills section">
+                <h2 class="skills-p" id="skills">Skills</h2>
+            </div>
+            <div class="container">
+                <ul class="skills-list">
+                    <li class="skills-item"><img src="/svg/ImgCinema.svg" alt="cinema4d"><p class="skills-item-p">Cinema 4D</p></li>
+                    <li class="skills-item"><img src="/svg/adobe.svg" alt="adobe"><p class="skills-item-p">Adobe</p></li>
+                    <li class="skills-item"><img src="/svg/htmlcss.svg" alt="html-css"><p class="skills-item-p">HTML, CSS</p></li>
+                    <li class="skills-item"><img src="/svg/js.svg" alt="javascript"><p class="skills-item-p">JavaScript</p></li>
+                    <li class="skills-item"><img src="/svg/github.svg" alt="git"><p class="skills-item-p">Git</p></li>
+                    <li class="skills-item"><img src="/svg/unity.svg" alt="unity"><p class="skills-item-p">Unity</p></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="code-example section">
+                <h2 class="code-section-p" id="codeExample">Code Example</h2>
+            </div>
+            <div class="container">
+                <div class="code-cont">
+                    <div class="code-description">
+                        <p class="code-description-p">You are going to be given a word. Your job is to return the middle character of the word. If the word’s length is odd, return the middle character. If the word’s length is even, return the middle 2 characters.</p>
+                    </div>
+                    <div class="code-code">
+                        <code>
+                            function getMiddle(s){<br>
+                                &nbsp;const strLen = s.length;<br>
+                                &nbsp;const mid = strLen / 2;<br>
+                                &nbsp;if(strLen % 2 === 0){<br>
+                                    &nbsp;&nbsp;return s.slice(mid - 1, mid + 1);<br>
+                                &nbsp;} if(strLen % 2 !== 0){<br>
+                                    &nbsp;&nbsp;return s[Math.floor(mid)];<br>
+                                    &nbsp;};<br>
+                            };<br>
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
