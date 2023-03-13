@@ -1,0 +1,9 @@
+@import url(./normalize.css);
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
