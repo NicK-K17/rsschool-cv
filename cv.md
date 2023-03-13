@@ -51,3 +51,20 @@ function getMiddle(s)
 };
 ```
 ---
+
+## __Education__
+
+- Francisk Skorina Gomel State University
+- Courses:
+  - [Code-Basics](https://ru.code-basics.com/)
+  - [Hexlet «Front-end Developer»](https://ru.hexlet.io/programs/frontend)
+  - [HTML Academy](hhtps://htmlacademy.ru)
+  - [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)
+  - [RS Shools course «JavaScript/Front-end.» ](https://rs.school/js/) - in progress
+
+---
+
+## __Languages__
+
+- English - Basic(reading technical literature)
+- Russian - Native
